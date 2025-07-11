@@ -1,9 +1,15 @@
+//Log.h
+
 #pragma once
+#pragma warning(disable : 4251) // Disable warning for DLL interface
+#pragma warning(push)
 
 #include <memory>
 
 #include "Core.h"
 #include "spdlog/spdlog.h"
+#include "spdlog/fmt/ostr.h"
+ 
 
 namespace Hazel {
 
@@ -18,6 +24,9 @@ namespace Hazel {
 		static std::shared_ptr<spdlog::logger> s_CoreLogger;
 		static std::shared_ptr<spdlog::logger> s_ClientLogger;
 	};
+
+	
+	
 
 }
 
