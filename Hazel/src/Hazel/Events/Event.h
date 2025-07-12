@@ -1,8 +1,8 @@
 ﻿#pragma once
 
+#include "hzpch.h"
 #include "Hazel/Core.h"
-#include <string>
-#include <functional>
+
 
 // -------------- fmt include ------------------
 // Because spdlog vendors fmt, you may use:
@@ -10,7 +10,7 @@
 
 // or, if you’ve installed fmt separately:
 // #include <fmt/format.h>
-#include <ostream>
+
 
 // -------------- Hazel event system -----------
 

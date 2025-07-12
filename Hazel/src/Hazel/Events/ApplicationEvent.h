@@ -1,9 +1,10 @@
 //ApplicationEvent.h
 #pragma once
 
+#include "hzpch.h"
 #include "Event.h"
 
-#include <sstream>
+
 
 namespace Hazel {
 

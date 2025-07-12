@@ -4,7 +4,7 @@
 #pragma warning(disable : 4251) // Disable warning for DLL interface
 #pragma warning(push)
 
-#include <memory>
+#include "hzpch.h"
 
 #include "Core.h"
 #include "spdlog/spdlog.h"
