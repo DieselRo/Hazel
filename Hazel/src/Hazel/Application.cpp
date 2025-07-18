@@ -23,7 +23,9 @@ namespace Hazel {
 
 	Application::~Application()
 	{
+
 	}
+
 
 	void Application::PushLayer(Layer* layer)
 	{
